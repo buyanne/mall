@@ -2,11 +2,6 @@
 server:
   port: 8081
 spring:
-  devtools:
-    restart:
-      enabled: false
-    livereload:
-      enabled: false
   datasource:
     #MySQL配置
     driverClassName: com.mysql.cj.jdbc.Driver
