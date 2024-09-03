@@ -38,7 +38,7 @@ public class MemberController {
     @RequestMapping("/coupons")
     public R test(){
         MemberEntity memberEntity=new MemberEntity();
-        memberEntity.setNickname("zhangsan");
+        memberEntity.setNickname("张三");
         R  r= couponFeignService.membercoupons();
         return R.ok().put("member",memberEntity).put("coupons",r.get("coupons"));
     }
