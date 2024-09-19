@@ -14,6 +14,13 @@ spring:
       password: 123321
       discovery:
         server-addr: 118.31.39.88:8848
+      config:
+        server-addr: 118.31.39.88:8848
+        username: nacos
+        password: 123321
+        group: DEFAULT_GROUP
+        file-extension: yml
+        namespace: public
   application:
     name: mall-order
 mybatis-plus:
