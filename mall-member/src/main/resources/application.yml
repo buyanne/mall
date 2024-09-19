@@ -7,7 +7,7 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.52.128:3306/mall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password: 123321
+    password: root
   cloud:
     nacos:
       username: nacos
